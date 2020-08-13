@@ -1,0 +1,6 @@
+framework module Pods_chatapp_plex_chatapp_plexUITests {
+  umbrella header "Pods-chatapp-plex-chatapp-plexUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
