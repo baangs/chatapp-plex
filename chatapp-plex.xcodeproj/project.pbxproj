@@ -10,7 +10,6 @@
 		21CBDF09F417F3985ECDD097 /* Pods_chatapp_plex_chatapp_plexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F61E45018849529F57CBBB5 /* Pods_chatapp_plex_chatapp_plexUITests.framework */; };
 		5770064824E4BFC700E58A59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770064724E4BFC700E58A59 /* AppDelegate.swift */; };
 		5770064A24E4BFC700E58A59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770064924E4BFC700E58A59 /* SceneDelegate.swift */; };
-		5770064C24E4BFC700E58A59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770064B24E4BFC700E58A59 /* ContentView.swift */; };
 		5770064E24E4BFCC00E58A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5770064D24E4BFCC00E58A59 /* Assets.xcassets */; };
 		5770065124E4BFCC00E58A59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5770065024E4BFCC00E58A59 /* Preview Assets.xcassets */; };
 		5770065424E4BFCC00E58A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5770065224E4BFCC00E58A59 /* LaunchScreen.storyboard */; };
@@ -18,6 +17,8 @@
 		5770066A24E4BFCC00E58A59 /* chatapp_plexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770066924E4BFCC00E58A59 /* chatapp_plexUITests.swift */; };
 		5770067824E4C05A00E58A59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5770067724E4C05A00E58A59 /* GoogleService-Info.plist */; };
 		57C5039224E5D80F0053D3B7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C5039124E5D80F0053D3B7 /* AuthViewController.swift */; };
+		57C5039424E6E0050053D3B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C5039324E6E0050053D3B7 /* ViewController.swift */; };
+		57C5039624EC58C10053D3B7 /* mainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C5039524EC58C10053D3B7 /* mainStoryboard.storyboard */; };
 		8AE0A9D32AEF9C6E189B4517 /* Pods_chatapp_plexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A46C481647EC5607D9A8A46 /* Pods_chatapp_plexTests.framework */; };
 		ACFE8D3F32DB71B205804B99 /* Pods_chatapp_plex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051F95BD4B162E68D2514BC5 /* Pods_chatapp_plex.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +47,6 @@
 		5770064424E4BFC700E58A59 /* chatapp-plex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chatapp-plex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5770064724E4BFC700E58A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5770064924E4BFC700E58A59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5770064B24E4BFC700E58A59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5770064D24E4BFCC00E58A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5770065024E4BFCC00E58A59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5770065324E4BFCC00E58A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		5770066B24E4BFCC00E58A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5770067724E4C05A00E58A59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		57C5039124E5D80F0053D3B7 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		57C5039324E6E0050053D3B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57C5039524EC58C10053D3B7 /* mainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mainStoryboard.storyboard; sourceTree = "<group>"; };
 		66AF88234B57DFE4C5105B8E /* Pods-chatapp-plex-chatapp-plexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatapp-plex-chatapp-plexUITests.release.xcconfig"; path = "Target Support Files/Pods-chatapp-plex-chatapp-plexUITests/Pods-chatapp-plex-chatapp-plexUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7F61E45018849529F57CBBB5 /* Pods_chatapp_plex_chatapp_plexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatapp_plex_chatapp_plexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		957013206EED85A999C591B5 /* Pods-chatapp-plexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatapp-plexTests.debug.xcconfig"; path = "Target Support Files/Pods-chatapp-plexTests/Pods-chatapp-plexTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,13 +124,14 @@
 			children = (
 				5770064724E4BFC700E58A59 /* AppDelegate.swift */,
 				5770064924E4BFC700E58A59 /* SceneDelegate.swift */,
-				5770064B24E4BFC700E58A59 /* ContentView.swift */,
 				5770064D24E4BFCC00E58A59 /* Assets.xcassets */,
 				5770065224E4BFCC00E58A59 /* LaunchScreen.storyboard */,
 				5770065524E4BFCC00E58A59 /* Info.plist */,
 				5770067724E4C05A00E58A59 /* GoogleService-Info.plist */,
 				5770064F24E4BFCC00E58A59 /* Preview Content */,
 				57C5039124E5D80F0053D3B7 /* AuthViewController.swift */,
+				57C5039324E6E0050053D3B7 /* ViewController.swift */,
+				57C5039524EC58C10053D3B7 /* mainStoryboard.storyboard */,
 			);
 			path = "chatapp-plex";
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			files = (
 				5770065424E4BFCC00E58A59 /* LaunchScreen.storyboard in Resources */,
 				5770067824E4C05A00E58A59 /* GoogleService-Info.plist in Resources */,
+				57C5039624EC58C10053D3B7 /* mainStoryboard.storyboard in Resources */,
 				5770065124E4BFCC00E58A59 /* Preview Assets.xcassets in Resources */,
 				5770064E24E4BFCC00E58A59 /* Assets.xcassets in Resources */,
 			);
@@ -422,10 +426,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C5039424E6E0050053D3B7 /* ViewController.swift in Sources */,
 				57C5039224E5D80F0053D3B7 /* AuthViewController.swift in Sources */,
 				5770064824E4BFC700E58A59 /* AppDelegate.swift in Sources */,
 				5770064A24E4BFC700E58A59 /* SceneDelegate.swift in Sources */,
-				5770064C24E4BFC700E58A59 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
