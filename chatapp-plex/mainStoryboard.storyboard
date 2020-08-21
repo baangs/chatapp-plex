@@ -26,7 +26,7 @@
         <!--Auth View Controller-->
         <scene sceneID="Raa-PW-4yb">
             <objects>
-                <viewController storyboardIdentifier="authViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f7m-ob-6xZ" customClass="AuthViewController" customModule="chatapp_plex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="authViewController" id="f7m-ob-6xZ" customClass="AuthViewController" customModule="chatapp_plex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HzP-rW-enm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
